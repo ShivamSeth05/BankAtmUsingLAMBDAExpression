@@ -10,10 +10,10 @@ If pinNo entered Wrongly for three times,display the msg as &quot;Transaction
 blocked temporarly;.
 <br>
 <hr>
-(b)If the PinNo is Validated and verified Successfully,select the from the choice
+(b)If the PinNo is Validated and verified Successfully,select the from the choice<br>
 1.WithDraw<br>
 2.Deposit
-
+<br>
 1.WithDraw:
 Enter the amt
 The amt must be greater than Zero and multiples of 100,else &quot;Invalid amt&quot;
@@ -22,17 +22,17 @@ If amt Validated Successfully then create object for &quot;WithDraw&quot; class 
 pass amt as parameter to process() method
 part of process() method check the amt is less than bal or not.
 If amt is less than bal then perform transaction,else &quot;Insufficient fund&quot;
-o/p:
-Amt WithDrawn :
-Balance Amt :
+o/p:<br>
+Amt WithDrawn :<br>
+Balance Amt :<br>
 Transaction Successful...
 
-2.Deposit:
-Enter the amt
+2.Deposit:<br>
+Enter the amt<br>
 The amt must be greater than Zero and multiples of 100,else &quot;Invalid amt&quot;
 If amt Validated Successfully then create object for &quot;Deposit&quot; class and
 pass amt as parameter to process() method
-o/p:
-Amt Deposited:
-Balance Amt :
+o/p:<br>
+Amt Deposited:<br>
+Balance Amt :<br>
 Transaction Successful...
