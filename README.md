@@ -1,14 +1,17 @@
 # Assignment:(BankTransaction Process)
 ## BankAtmUsingLAMBDAExpression
 ### Real Time Example of Lambda Expressions 
+<hr>
 (a)read pinNo
  pinNo must be 4 digits,else &quot;Invalid pinNo&quot;
 If pinNo is validated then the PinNo must be in 1111 or 2222 or 3333,else
 Incorrect PinNo...;
 If pinNo entered Wrongly for three times,display the msg as &quot;Transaction
 blocked temporarly;.
+<br>
+<hr>
 (b)If the PinNo is Validated and verified Successfully,select the from the choice
-1.WithDraw
+1.WithDraw<br>
 2.Deposit
 
 1.WithDraw:
